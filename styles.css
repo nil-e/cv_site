@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin:0;
+}
+
+body {
+    background-color: white;
+    width: 1000px;
+}
+
+img {
+    block-size: 150px;
+    margin: 50px 0 0 50px;
+}
+
+tr.intro {
+    height: 100px;
+    width: 100%;
+    vertical-align: text-top;
+}
+
+td.intro {
+    padding-left:50px;
+}
+
+td.intro > h1,h3,section {
+    padding: 10px;
+}
+
+td {
+    width: 50%;    
+    vertical-align: text-top;
+}
+
+section.body {
+    margin-left:50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+span.experience {
+    margin: 30px;
+}
+
+span.experience > ul {
+    padding: 20px;
+    margin: 10px;
+}
+
+span.experience > h2,i,h3 {
+    padding: 10px;
+}
+
+section.body > ul,span {
+    padding: 20px;
+
+}
